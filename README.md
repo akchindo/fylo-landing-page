@@ -1,4 +1,4 @@
 # fylo-landing-page
-hosted link   https://boring-sammet-ef06e9.netlify.app/
+hosted link   https://chindo-fylo.netlify.app/
 
-https://boring-sammet-ef06e9.netlify.app/
+https://chindo-fylo.netlify.app/
