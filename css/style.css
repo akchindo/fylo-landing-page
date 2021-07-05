@@ -1,0 +1,331 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5.h6 {
+  font-family: 'Raleway', sans-serif;
+}
+
+.container {
+  max-width: 1100px;
+  padding: 0 2rem;
+  margin: auto;
+  overflow: hidden;
+}
+
+
+
+
+#navbar {
+  background: #1c2230;
+  padding: 1.5rem 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo img {
+  width: 100px;
+}
+
+#navbar .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#navbar .container ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+#navbar .container ul li a {
+  display: block;
+  color: #fff;
+  padding: 0.75rem;
+  margin: 0 0.25rem;
+}
+
+#navbar .container ul li a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+
+.head {
+  background: #1c2230;
+}
+
+
+
+#box {
+  background: #1c2230;
+  
+  
+}
+
+
+.intro {
+  background:  url(/img/bg-curvy-desktop.svg) no-repeat   ;
+  height: 450px;
+  border: none;
+}
+
+.bg {
+  width: 1100px;
+  height: 00px;
+  z-index: -1;
+}
+
+
+
+.intro h1 {
+  text-align: center;
+  color: #fff;
+  margin-top: -5px;
+}
+
+.intro p {
+  text-align: center;
+  color: #fff;
+  margin: 20px 0 30px 0;
+
+}
+
+.intro button {
+  display: block;
+  border-radius: 25px;
+  padding: 0.7rem 2rem;
+  border: none;
+  background: #47bbd4;
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: -10px;
+}
+
+.intro button:hover {
+  cursor: pointer;
+}
+
+.head .bg-1 {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+
+
+#access {
+ background: #181f2b;
+ padding: 2rem ;
+}
+
+.access-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+}
+
+.card {
+  text-align: center;
+  color: #fff;
+}
+
+.card h3 {
+  padding: 20px 0 10px 0 ;
+}
+
+.card img {
+  display: block;
+  margin: auto;
+}
+
+.access-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+/* .access-2  div p {
+  text-align: center;
+} */
+
+.access-2  > div p {
+  margin: 1rem  0;
+}
+
+.access-2 div {
+  padding: 0 2rem;
+  color: #fff;
+}
+
+.access-2 div h1 {
+  font-size: 40px; 
+}
+
+.access-2 div a {
+  text-decoration: underline;
+  color: #6d9197;
+}
+
+.access-2 div a {
+  cursor: pointer;
+}
+
+.fav {
+  padding-top: 8px;
+  margin-left: 3px;
+  width: 12px;
+}
+
+
+.box {
+  background: #21293c;
+  color: #fff;
+  padding: 16px 20px;
+  border: none;
+}
+
+.prof {
+  width: 50px;
+  border-radius: 25px;
+}
+
+
+#quote {
+  display: grid;
+  grid-template-columns:  repeat(3, 1fr);
+  grid-gap: 1rem;
+  margin-bottom: 250px;
+}
+.ceo {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.rank {
+  padding: 0 10px;
+}
+
+
+#footer  {
+  background: #181e2a;
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+
+.box-1 {
+  background: #21293c;
+  color: #fff;
+  padding: 30px 50px;
+  width: 800px;
+  border: none;
+  position: relative;
+  top: -100px;
+  left: 300px;
+  z-index: 1;
+}
+
+.box-1  {
+  text-align: center;
+}
+
+.box-1 p {
+  margin: 20px 0;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 25px;
+  padding: 0.7rem 2rem;
+  border: none;
+  background: #47bbd4;
+  color: #fff;
+}
+
+.btn-blue:hover {
+  cursor: pointer;
+}
+
+.btn-light {
+  background: #fff;
+  padding: 0.2rem 1rem;
+  color: #333;
+  width: 70%;
+  margin-right: 20px;
+}
+
+
+.inputs  {
+  display: flex;
+}
+
+#footer {
+  background: #0c1524;
+  color: #fff;
+}
+
+#footer a {
+  color: #fff;
+
+}
+
+
+#footer .footer-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr) ;
+  /* align-items: center; */
+  /* justify-content: center; */
+  grid-gap: 0.7rem;
+  margin: 1.5rem 2rem;
+}
+
+.icon {
+  display: flex;
+}
+
+.icon-1 {
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.icon i {
+  padding-right: 25px;
+}
+
+.icon-1 i {
+  padding-right: 25px;
+}
+
+#footer ul li {
+  list-style: none;
+}
+
+
+
+.list li {
+  padding: 0.5rem 0;
+}
+
+
+.footer-container > div:nth-child(2) {
+  margin: 0 45px;
+}
+
+
+.footer-container > div:last-child i {
+  padding-right: 15px;
+  /* color: #0c1524; */
+  color: #fff;
+}
